@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Amal V Aasish</title></title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <link href="assets/img/icon.png" rel="icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+<body class="bg-black min-h-screen mx-40">
+  <header id="header" class="mt-60 ">
+    <div class="container" >
+      <h1 class="text-7xl text-green-500 m-2">AMAL V AASISH</h1>
+      <h2 class="text-green-300 m-1 text-2xl">I'm an <strong class="">AI/ML Engineer | Python Developer</strong></h2>
+      <br>
+      <div class="flex space-x-4">
+        <a href="https://www.linkedin.com/in/amal-v-aasish-815738332" target="_blank"> 
+          <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #63E6BE;"></i>
+        </a>
+        <a href="https://github.com/AMALVAASISH" target="_blank">
+          <i class="fa-brands fa-github fa-2xl" style="color: #63E6BE;"></i>
+        </a>
+      </div>
+      <!-- <br>
+      <hr width="50%"> -->
+      <br>
+      <div class="flex space-x-4 text-green-200 text-2xl underline underline-offset-4">
+        <h2 class="active scroll-mt-60"><a href="">Home</a></h2>
+        <h2><a href="#Experience">Experience</a></h2>
+        <h2><a href="#Projects">Projects</a></h2>
+        <h2><a href="#About">About</a></h2>
+        <h2><a href="./assets/file/.pdf" target="_blank">Resume</a></h2>
+      </div>
+      <br>
+      <hr width="50%">
+      <br>
 
-<body>
+    </div>
+  </header> 
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-    <div class="container">
-
-      <h1><a href="index.html">Amal V Aasish</a></h1>
-      <h2>I'm a <span>fullstack </span>developer</h2>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="./assets/file/athira_m.pdf" target="_blank">Resume</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/amal-v-aasish/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/AMALVAASISH" class="github"><i class="fa fa-github"></i></a>
+  <section id="Experience" class="Experience">
+    <div class="Experience-title">
+      <h1 class="text-2xl underline underline-offset-4 text-green-400 ">Experience</h1>
+      <br>
+      <div class="text-green-300 text-sm/7">
+        <h1 class="text-2xl font-bold">Elvicto Technolgies - AI/ML Engineer | Python Developer <span class="italic text-1xl"> (Feb 2024  - Present)</span></h1 >
+        <h2 class="text-1xl">>Developed Python scripts for training YOLO object detection models and managing datasets</h2>
+        <h2>>Designed and implemented logic for real-time object detection and OCR (Optical Character Recognition) using YOLO and PaddleOCR</h2>
+        <h2>>Integrated YOLO model outputs with external APIs for enabling seamless data exchange</h2>
+        <h2>>Authored shell scripts (.sh) to automate repetitive tasks </h2>
+        <h2>>Maintained and optimized inference code for YOLO models, enhancing performance and reliability for production use</h2>
+        <h2 class="font-bold">>Python,YOLO,Linux </h2>
       </div>
     </div>
-  </header><!-- End Header -->
-  
-  
-  <!-- ======= About Section ======= -->
+    <h2></h2>
+  </section>
+  <br>
+  <section id="Projects" class="Projects">
+    <div class="Projects-title text-sm/7">
+      <h1 class="text-2xl underline underline-offset-4 text-green-400">Projects</h1>
+      <br>
+      <div class="text-green-300 text-sm/7">
+        <h1 class="text-2xl font-bold underline underline-offset-4 ">
+          Online Payment Fraud Detection using Machine Learning – Python
+        </h1>
+          <h2>
+          Built a machine learning model to detect fraudulent online payment transactions. Used Pandas for data preprocessing, 
+          NumPy for fast computations, and Seaborn/Matplotlib for visualizing transaction patterns.
+          Applied scikit-learn for model selection and evaluation, choosing the best model to accurately identify fraud
+        </h2>
+        <h2>Link - <a href="https://colab.research.google.com/drive/18LIW2VKKO4OYH-xR19zyFCYd58EwBXsL?usp=sharing" target="_blank">https://colab.research.google.com/drive/18LIW2VKKO4OYH-xR19zyFCYd58EwBXsL?usp=sharing </a></h2>
+      </div>
+      <div class="text-green-300 text-sm/7">
+        <h1 class="text-2xl font-bold underline underline-offset-4 ">
+          Inventory Demand Forecasting using Machine Learning – Python
+        </h1>
+          <h2>
+            Developed a machine learning model to predict product demand across multiple 
+            stores to help maintain optimal inventory levels. Used Pandas and NumPy for data handling, 
+            Matplotlib/Seaborn for visualizations, and scikit-learn for model building and evaluation. 
+        </h2>
+        <h2>Link - <a href="https://colab.research.google.com/drive/13xr9-zb7IxkbOS4Q--zUrXP0QC8TvxRT?usp=sharing" target="_blank">https://colab.research.google.com/drive/18LIW2VKKO4OYH-xR19zyFCYd58EwBXsL?usp=sharing </a></h2>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section id="About" class="About">
+    <div class="About-title">
+      <h1 class="text-2xl underline underline-offset-4 text-green-400 ">About</h1>
+      <br>
+      <div class="text-green-300 text-sm/8">
+        <h1 class="text-2xl font-bold">Education</h1 >
+        <h2 class="text-2xl text-green-100">B.Tech(Mechanical Engineering) with honors - Sree Chitra Thirunal College of Engineering, Trivandrum</h2>
+        <h2 class="text-green-100">2018-2022</h2>
+        <h2 class="text-green-100">CGPA - 8.99</h2>
+        <h2></h2>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <hr>
 
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
